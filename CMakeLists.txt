@@ -10,10 +10,10 @@ endif ()
 
 project(kingdom_key VERSION 0.2.2 LANGUAGES CXX)
 
-# Build against the current released Dusklight mod SDK used by this patch.
+# Pin to the known-good Dusklight SDK/game-header commit used by v0.2.1.
 # Override with -DDUSKLIGHT_DIR=/path/to/dusklight for a local checkout.
 if (NOT DUSKLIGHT_VERSION)
-    set(DUSKLIGHT_VERSION "v2.0.2")
+    set(DUSKLIGHT_VERSION "40457c6adb381928e4b5fef6ed459ed291edd5e2")
 endif ()
 
 include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/FetchDusklight.cmake")
