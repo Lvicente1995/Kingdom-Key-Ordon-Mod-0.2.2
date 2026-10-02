@@ -1,0 +1,7 @@
+{
+  "id": "local.kingdom_key.ordon",
+  "name": "Kingdom Key — Ordon Sword",
+  "version": "0.2.2",
+  "author": "Custom local mod",
+  "description": "Kingdom Key for Ordon Sword: chain physics, KHIII summon/dismiss and enemy-hit effects, shield gesture, shadows/reflections, and portable custom audio across Dusklight-supported mod targets."
+}
